@@ -9,6 +9,18 @@
         "angular-route": "~1.4.0",
         "angular-loader": "~1.4.0",
         "angular-mocks": "~1.4.0",
-        "html5-boilerplate": "~5.2.0"
-    }
+        "html5-boilerplate": "~5.2.0",
+        "angular-oauth2": "~3.0.1",
+        "jquery": ">= 1.9.1"
+    },
+    "main": [
+        "less/bootstrap.less",
+        "dist/js/bootstrap.js"
+    ],
+    "ignore": [
+        "_config.yml",
+        "CNAME",
+        "CONTRIBUTING.md",
+        "docs",
+    ],
 }

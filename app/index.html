@@ -13,17 +13,44 @@
         <link rel="stylesheet" href="../bower_components/html5-boilerplate/dist/css/normalize.css">
         <link rel="stylesheet" href="../bower_components/html5-boilerplate/dist/css/main.css">
         <script src="../bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+        <!-- ONlY FOR DEV -->
+        <link href="../dist/css/bootstrap.css" rel="stylesheet">
     </head>
     <body>
-        <ul class="menu">
-        <li><a href="#/main">main</a></li>
-        </ul>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">SpeakIt</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" placeholder="Email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input type="password" placeholder="Password" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Sign in</button>
+              </form>
+            </div><!--/.navbar-collapse -->
+          </div>
+        </nav>
 
         <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <div ng-view></div>
+
+        <footer>
+          <p>&copy; Speak It 2015</p>
+        </footer>
 
         <!-- In production use:
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
@@ -32,5 +59,8 @@
         <script src="../bower_components/angular-route/angular-route.js"></script>
         <script src="components/main/controller.js"></script>
         <script src="app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- ONlY FOR DEV -->
+        <script src="../dist/js/bootstrap.min.js"></script>
     </body>
 </html>
