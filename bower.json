@@ -21,6 +21,6 @@
         "_config.yml",
         "CNAME",
         "CONTRIBUTING.md",
-        "docs",
-    ],
+        "docs"
+    ]
 }
