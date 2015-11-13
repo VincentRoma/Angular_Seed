@@ -12,7 +12,8 @@
     "html5-boilerplate": "~5.2.0",
     "angular-oauth2": "~3.0.1",
     "jquery": ">= 1.9.1",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "angular-resource": "~1.4.7"
   },
   "main": [
     "less/bootstrap.less",
