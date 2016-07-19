@@ -25,7 +25,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">SpeakIt</a>
+              <a class="navbar-brand" ui-sref="main">Angular Seed</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <form class="navbar-form navbar-right">
@@ -45,10 +45,10 @@
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div ng-view></div>
+        <div ui-view></div>
 
         <footer>
-          <p>&copy; Speak It 2015</p>
+          <p>&copy; Angular Seed</p>
         </footer>
 
         <!-- In production use:
@@ -56,10 +56,16 @@
         -->
         <script src="../bower_components/angular/angular.js"></script>
         <script src="../bower_components/angular-route/angular-route.js"></script>
-        <script src="components/main/controller.js"></script>
-        <script src="app.js"></script>
+        <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="../bower_components/angular-resource/angular-resource.js"></script>
         <script src="../bower_components/jquery/dist/jquery.min.js"></script>
         <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- YOUR COMPOSANTS -->
+        <script src="components/main/controller.js"></script>
+        <script src="components/main/factory.js"></script>
+        <script src="components/main/directive.js"></script>
+        <script src="app.js"></script>
         <!-- ONlY FOR DEV -->
     </body>
 </html>
