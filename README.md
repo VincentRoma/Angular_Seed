@@ -23,7 +23,7 @@ The application is going to listen on the localhost:5000 by default. You can cha
 
 ```json
 "scripts": {
-    "start": "http-server -a localhost -p 5000 -c-1"
+    "start": "http-server -a localhost -p 7000 -c-1"
 }
 ```
 
@@ -31,11 +31,10 @@ The application is going to listen on the localhost:5000 by default. You can cha
 
 Folder | Contains
 --- | ---
-app | Everything regarding your app
-app/components | Folders that you create for every model functionality (e.g. cars, phone etc...)
-app/components/main | Typical app folder exemple, contains the html for directives and controllers, and the controllers, factories and directives
-app/components/index.html | Main template into which every sub template is going to be injected, link every new file/app/dependencies you add in this file. You can add pre processors to your project to do it for you.
-app/components/app.js | Main configuration of you application, add every modules you create in the app declaration and you also define your routes here.
+components | Folders that you create for every model functionality (e.g. cars, phone etc...)
+components/main | Typical app folder exemple, contains the html for directives and controllers, and the controllers, factories and directives
+index.html | Main template into which every sub template is going to be injected, link every new file/app/dependencies you add in this file. You can add pre processors to your project to do it for you.
+app.js | Main configuration of you application, add every modules you create in the app declaration and you also define your routes here.
 
 ### Libraries
 

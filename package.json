@@ -87,6 +87,6 @@
         ]
     },
     "scripts": {
-        "start": "http-server -a localhost -p 5000 -c-1"
+        "start": "http-server -a localhost -p 7000 -c-1"
     }
 }
